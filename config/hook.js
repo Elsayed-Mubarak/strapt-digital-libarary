@@ -1,7 +1,8 @@
 module.exports = {
-    settings: {
-      'hook-name': {
-        enabled: true,
-      },
+  settings: {
+    'github': {
+      enabled: true,
+      token: process.env.GITHUB_TOKEN,
     },
-  };
+  },
+};

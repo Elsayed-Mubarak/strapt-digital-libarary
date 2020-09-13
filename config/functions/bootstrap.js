@@ -10,4 +10,7 @@
  * See more details here: https://strapi.io/documentation/v3.x/concepts/configurations.html#bootstrap
  */
 
-module.exports = () => {};
+module.exports = async () => {
+    const data = await strapi.services.github.users.getAuthenticated();
+    console.log(data);
+};

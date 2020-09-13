@@ -1,0 +1,12 @@
+// aws configuration
+{
+    "provider": "aws-s3",
+    "providerOptions": {
+        "accessKeyId": "dev-key",
+        "secretAccessKey": "dev-secret",
+        "region": "aws-region",
+        "params": {
+            "Bucket": "my-bucket"
+        }
+    }
+}

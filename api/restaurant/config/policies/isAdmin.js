@@ -1,3 +1,8 @@
+module.exports = {}
+
+
+
+/*
 module.exports = async (ctx, next) => {
     if (ctx.state.user.role.name === 'Administrator') {
         // Go to next policy or will reach the controller's action.
@@ -7,6 +12,19 @@ module.exports = async (ctx, next) => {
 
     ctx.unauthorized(`You're not allowed to perform this action!`);
 };
+
+/*
+// router for find methods above
+{
+  "method": "GET",
+    "path": "/restaurants",
+      "handler": "restaurant.find",
+        "config": {
+    "policies": ["isAdmin"]
+  }
+
+*/
+
 
 
 /*

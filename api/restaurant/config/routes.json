@@ -5,7 +5,7 @@
       "path": "/restaurants",
       "handler": "restaurant.find",
       "config": {
-        "policies": ["isAdmin"]
+        "policies": []
       }
     },
     {

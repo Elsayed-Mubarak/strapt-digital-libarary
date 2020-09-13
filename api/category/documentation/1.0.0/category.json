@@ -549,6 +549,9 @@
                     "type": "string"
                   }
                 },
+                "chef": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },
